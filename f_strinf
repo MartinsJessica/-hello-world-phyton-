@@ -1,0 +1,7 @@
+nome = "Jessica"
+idade = "30"
+
+idade = int(input("Informe um número:"))
+
+frase =f"{nome} tem {idade} anos. Daqui {100-idade} anos ele fara em 100 anos"
+print(frase)
