@@ -1,0 +1,14 @@
+''' Caracter de escape 'Informe a área, em "metros" quadrados, a ser pintada:\n' '''
+
+import math
+
+area_metros = float(
+    input('Informe a área, em "metros" quadrados, a ser pintada:\n'))
+quantidade_litros = area_metros / 3
+quantidade_latas = math.ceil(quantidade_litros / 18)
+
+valor_total = quantidade_latas*80
+
+
+print("Quantidade de Latas para ", area_metros, "m²: ", quantidade_latas)
+print("Valor Total: R$ ", valor_total)
