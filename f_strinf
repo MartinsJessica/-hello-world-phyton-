@@ -5,3 +5,5 @@ idade = int(input("Informe um número:"))
 
 frase =f"{nome} tem {idade} anos. Daqui {100-idade} anos ele fara em 100 anos"
 print(frase)
+
+''' Dentro da string, chaves dentro dela uma variável e resolve a questão lá dentro'''
